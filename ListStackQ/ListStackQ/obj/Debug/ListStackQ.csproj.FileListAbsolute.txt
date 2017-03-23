@@ -1,0 +1,13 @@
+c:\users\games\documents\visual studio 2015\Projects\ListStackQ\ListStackQ\bin\Debug\ListStackQ.exe.config
+E:\ListStackQ\ListStackQ\bin\Debug\ListStackQ.exe.config
+D:\ListStackQ\ListStackQ\bin\Debug\ListStackQ.exe.config
+M:\ListStackQ\ListStackQ\bin\Debug\ListStackQ.exe.config
+E:\ListStackQ\ListStackQ\bin\Debug\ListStackQ.exe
+E:\ListStackQ\ListStackQ\bin\Debug\ListStackQ.pdb
+E:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.csprojResolveAssemblyReference.cache
+E:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.exe
+E:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.pdb
+M:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.exe
+M:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.pdb
+D:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.exe
+D:\ListStackQ\ListStackQ\obj\Debug\ListStackQ.pdb
