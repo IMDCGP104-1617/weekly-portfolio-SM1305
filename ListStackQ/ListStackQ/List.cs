@@ -23,7 +23,7 @@ namespace ListStackQ
             get
             {
                 return head.Data; //RETURNS DATA CONTAINED IN THE HEAD NODE.
-            }  
+            }
         }
 
         public int Count
@@ -31,7 +31,7 @@ namespace ListStackQ
             get
             {
                 return count;  //RETURNS LENGTH OF THE LIST.
-            } 
+            }
         }
 
         public void list()
@@ -45,11 +45,11 @@ namespace ListStackQ
         ///                                                  if not then the newly created node becomes the head and points to the node which was previously the head. 
         /// A count is added to the list to represent the addition of the new head node.
 
-        public void InsertBeginning (T data)
+        public void InsertBeginning(T data)
         {
             Node newNode = new Node(); //CREATES A NEW NODE.
             newNode.Data = data; //ASSIGNS THE DATA IN THE FUNCTION PARAMETER TO THE DATA IN THE NODE.
-            if (Head == null)
+            if (head == null)
             {
                 head = newNode; //IF HEAD DOES NOT COTNAIN DATA THEN A NEWLY CREATED NODE BECOMES THE HEAD.
             }
@@ -69,7 +69,7 @@ namespace ListStackQ
         ///                 (if yes) creates a new node following the current node and inserts data into this newly created node
         ///                 +1 is added to the counter to represent the addition of the new node.
 
-        public void InsertAfter (int count, T data)
+        public void InsertAfter(int count, T data)
         {
             Node newNode = new Node { Data = data }; // CREATES A NEW NODE (SETS DATA IN NEW NODE EQUAL TO DATA PARAMETER).
             Node current = head; //SETS THE HEAD NODE TO CURRENT (WE ARE NOW LOOKING AT THE HEAD NODE)
@@ -99,7 +99,7 @@ namespace ListStackQ
         ///                 a new node is created containing the value of the data parameter, this is inserted after the final node in the list (it does not reference a following node as it is in the end position)
         ///                 the node previously at the end of the list (prior to adding the new node), is set to point to the newly created node
 
-        public void InsertEnd (T data)
+        public void InsertEnd(T data)
         {
             if (head == null) //CHECKS TO SEE WHETHER THE HEAD CONTAINS DATA
             {
@@ -129,7 +129,7 @@ namespace ListStackQ
         /// A count is subtracted from the list to represent the removal of data from the head node.
         /// ...if the removed head did contain data, the data value of the removed head is shown.
 
-        public T RemoveBeginning ()
+        public T RemoveBeginning()
         {
             T ret = default(T); //ASSIGNS RET TO DEFAULT TEMPLATE TYPE (DATA TYPE TO BE DEFINED).
 
@@ -158,9 +158,9 @@ namespace ListStackQ
         /// A count is subtracted from the list length to represent the removed node.
         /// The data contained within the removed node is displayed.
 
-        public T RemoveAfter (int count)
+        public T RemoveAfter(int count)
         {
-        T ret = default(T); //ASSIGNS RET TO DEFAULT TEMPLATE TYPE.
+            T ret = default(T); //ASSIGNS RET TO DEFAULT TEMPLATE TYPE.
             Node current = head; //SETS THE HEAD NODE TO CURRENT (WE ARE NOW LOOKING AT THE HEAD NODE)
             int counter = 0; //CREATES A COUNTER.
 
